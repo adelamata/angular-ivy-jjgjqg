@@ -21,6 +21,6 @@ export const MiToken2 = new InjectionToken<number>('TOKENMIO2');
 })
 export class AppModule {
   constructor() {
-    console.log(AppModule);
+    console.log(this);
   }
 }
